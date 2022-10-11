@@ -1,0 +1,100 @@
+<html>
+  <head>
+    <title>3D</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./app.js"></script>
+  </head>
+
+  <body>
+    <video autoplay muted loop class="loopThrough">
+      <source src="./banks.mp4" type="video/mp4" />
+    </video>
+
+    <div class="main">
+      <div class="left">
+        <div class="front">
+          <div class="circles">
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+          </div>
+          <div class="cardNumber">0000 0000 0000 0000</div>
+
+          <div class="profile">
+            <div class="names">Daniel Nwachukwu</div>
+            <div class="dateOfB">
+              <div class="left1">00</div>
+              /
+              <div class="righ1">00</div>
+            </div>
+          </div>
+        </div>
+        <div class="back">
+          <div class="backCvc">000</div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="form">
+          <div class="cardHolder">
+            <p>CARDHOLDER NAME</p>
+            <input
+              type="text"
+              placeholder="e.g. Daniel Nwachukwu"
+              class="cardMini"
+            />
+          </div>
+
+          <div class="cardNumberMain">
+            <p>CARD NUMBER</p>
+            <input
+              placeholder="&#8226;&#8226;&#8226;&#8226; &#8226;&#8226;&#8226;&#8226; &#8226;&#8226;&#8226;&#8226; &#8226;&#8226;&#8226;&#8226;"
+              maxlength="19"
+              class="cardNum"
+            />
+          </div>
+
+          <div class="littleBottom">
+            <div class="DOB">
+              <p>EXP. DATE(MM/YY)</p>
+              <div class="inner">
+                <input
+                  type="text"
+                  placeholder="MM"
+                  class="month"
+                  maxlength="2"
+                />
+                <input
+                  type="text"
+                  placeholder="YY"
+                  class="year"
+                  maxlength="2"
+                />
+              </div>
+            </div>
+
+            <div class="cvc">
+              <p>CVC</p>
+              <input
+                type="text"
+                placeholder="e.g. 123"
+                class="cvcs"
+                maxlength="3"
+              />
+            </div>
+          </div>
+
+          <div class="confirm confirm1">Confirm</div>
+        </div>
+
+        <div class="form2">
+          <div class="circle3">✓</div>
+
+          <p class="thanks">THANK YOU!👍</p>
+
+          <p class="little">We've added your card details</p>
+
+          <div class="confirm continue">Continue</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
